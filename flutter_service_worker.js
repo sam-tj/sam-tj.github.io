@@ -1,7 +1,7 @@
 'use strict';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "0cd570f7003d90f9a05f055ba92b41fb",
+  "assets/AssetManifest.json": "c1959e0eda1ee2d7c07f0682f943adc0",
 "assets/FontManifest.json": "73d144618c05781c2d1b74727d14e99e",
 "assets/fonts/MaterialIcons-Regular.ttf": "56d3ffdef7a25659eab6a68a3fbfaf16",
 "assets/fonts/Pacifico-Regular.ttf": "c1a28478f7a0cc5e25bb395d0543274d",
@@ -9,7 +9,6 @@ const RESOURCES = {
 "assets/fonts/SpecialElite-Regular.ttf": "7059acee3b9d8ea9744c26ab45135a8b",
 "assets/images/GitHub.png": "472739dfb5857b1f659f4c4c6b4568d0",
 "assets/images/LN.png": "0fe349ca0868124d27cb48e5874db8cb",
-"assets/images/logo.png": "9dcb7ca256f4541022649c1408338a22",
 "assets/images/profile1.jpg": "992a03989faf3bcfce2744dcd665298c",
 "assets/images/Twitter.png": "1f75d678b5526b783b2918b76f3262e7",
 "assets/LICENSE": "4852d43eb814ea5d65bc45ac0cc2e1bc",
@@ -19,7 +18,7 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "index.html": "808cf6cca36578467818398380c4375e",
 "/": "808cf6cca36578467818398380c4375e",
-"main.dart.js": "abe1dddf35e188d45ad203cb47019507",
+"main.dart.js": "81488c4b9f6b7d0e57f53f3d25e6d0eb",
 "manifest.json": "855c6a64f47dae2c3d01d3bb8b5b43f0"
 };
 
