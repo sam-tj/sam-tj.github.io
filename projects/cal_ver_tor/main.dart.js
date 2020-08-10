@@ -26637,19 +26637,20 @@ s.d=""
 s.n_()}else if(a==="sq"){s.y.push(s.d)
 s.f="sq"
 s.d=""
-s.n_()}else{if(a==="-"){s.y.push(s.d)
+s.n_()}else{r=s.d
+if(r.length!==0){if(a==="-"){s.y.push(r)
 s.f="-"
-s.d=""}else if(a==="*"){s.y.push(s.d)
+s.d=""}else if(a==="*"){s.y.push(r)
 s.f="*"
-s.d=""}else if(a==="/"){s.y.push(s.d)
+s.d=""}else if(a==="/"){s.y.push(r)
 s.f="/"
-s.d=""}else if(a==="+"){s.y.push(s.d)
+s.d=""}else if(a==="+"){s.y.push(r)
 s.f="+"
-s.d=""}else if(a==="="){s.y.push(s.d)
+s.d=""}else if(a==="="){s.y.push(r)
 s.d=""
 s.ch.scR(0,"")
 s.n_()}s.ch.scR(0,"")
-s.aG(new F.RU())}},
+s.aG(new F.RU())}}},
 ud:function(){var s=this
 s.d=""
 C.b.sl(s.y,0)
@@ -26690,7 +26691,7 @@ m.db=8}for(s=m.y,r=s.length,q=m.f,p="",o=0;o<r;++o){n=s[o]
 if(n.length!==0)p=p+" "+n+" "+q}if(m.z){s=p.length
 if(s>0){p=C.c.T(p,1,s-1)
 if(q==="%")p+="%"
-p=(q==="sq"?C.c.T(p,0,p.length-1)+" \xb2":p)+" ="}}return p},
+p=(q==="sq"?C.c.T(p,0,p.length-1)+" \xb2":p)+"="}}return p},
 RY:function(a){var s,r,q,p,o,n,m,l=null,k=K.lt(a,!1),j=K.ay(a,!0)
 L.JY(a,C.kQ,t.rH).toString
 s=H.d([],t.zf)
