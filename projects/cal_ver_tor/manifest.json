@@ -1,11 +1,11 @@
 {
-    "name": "CalVerTor",
-    "short_name": "CalVerTor",
+    "name": "Cal Ver Tor",
+    "short_name": "Cal Ver Tor",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#000000",
     "theme_color": "#000000",
-    "description": "CalVerTor by Sameer Tuteja",
+    "description": "Cal Ver Tor by Sameer Tuteja",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
