@@ -2,7 +2,7 @@
     "name": "About Sameer Tuteja",
     "short_name": "About Sameer Tuteja",
     "start_url": ".",
-    "display": "minimal-ui",
+    "display": "standalone",
     "background_color": "#ffffff",
     "theme_color": "#ffffff",
     "description": "Sameer Tuteja",
