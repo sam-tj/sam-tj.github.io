@@ -43,7 +43,7 @@
 			"icons": [{ "src": "https://raw.githubusercontent.com/sam-tj/sam-tj.github.io/master/dice_app/icons/Icon-512.png", "sizes": "192x192" }]
 		},
 		{
-			"name": "Cal Ver Tor",
+			"name": "Calculator & Unit Converter",
 			"short_name": "Cal Ver Tor",
 			"description": "Calculator and Unit converter by Sameer Tuteja",
 			"url": "/projects/cal_ver_tor/",
