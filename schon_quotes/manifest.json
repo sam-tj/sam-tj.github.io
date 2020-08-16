@@ -2,7 +2,7 @@
     "name": "Schön Quotes",
     "short_name": "Schön Quotes",
     "start_url": ".",
-    "display": "minimal-ui",
+    "display": "standalone",
     "background_color": "#FFFFFF",
     "theme_color": "#FFFFFF",
     "description": "Schön Quotes by Sameer Tuteja",
