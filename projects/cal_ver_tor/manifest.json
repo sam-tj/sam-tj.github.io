@@ -19,10 +19,24 @@
             "sizes": "512x512",
             "type": "image/png"
         },
-		{
+        {
             "src": "icons/Icon-1080.png",
             "sizes": "1080x1080",
             "type": "image/png"
+        }
+    ],
+    "shortcuts": [
+        {
+            "name": "Open Unit Converter",
+            "short_name": "Unit Converter",
+            "description": "Calculator and Unit converter by Sameer Tuteja",
+            "url": "/converter",
+            "icons": [
+                {
+                    "src": "https://raw.githubusercontent.com/sam-tj/sam-tj.github.io/master/projects/cal_ver_tor/icons/Icon-192.png",
+                    "sizes": "192x192"
+                }
+            ]
         }
     ]
 }
