@@ -19,5 +19,28 @@
             "sizes": "432x432",
             "type": "image/png"
         }
-    ]
+    ],
+	"shortcuts": [
+    {
+      "name": "Open Schön Quotes",
+      "short_name": "Schön Quotes",
+      "description": "Schön Quotes by Sameer Tuteja",
+      "url": "/schon_quotes/",
+      "icons": [{ "src": "https://raw.githubusercontent.com/sam-tj/sam-tj.github.io/master/schon_quotes/icons/Icon-192.png", "sizes": "192x192" }]
+    },
+	{
+      "name": "Open Xylophone",
+      "short_name": "Xylophone",
+      "description": "Xylophone by Sam",
+      "url": "/xylophone/",
+      "icons": [{ "src": "https://raw.githubusercontent.com/sam-tj/sam-tj.github.io/master/xylophone/icons/Icon-192.png", "sizes": "144x144" }]
+    },
+    {
+      "name": "Roll Dice",
+      "short_name": "Dicee",
+      "description": "Roll Dice",
+      "url": "/dice_app/",
+      "icons": [{ "src": "https://raw.githubusercontent.com/sam-tj/sam-tj.github.io/master/dice_app/icons/Icon-512.png", "sizes": "192x192" }]
+    }
+  ] 
 }
