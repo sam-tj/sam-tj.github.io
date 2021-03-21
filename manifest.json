@@ -2,7 +2,7 @@
     "name": "About Sameer Tuteja",
     "short_name": "About Sameer Tuteja",
     "start_url": ".",
-    "display": "standalone",
+    "display": "minimal-ui",
     "background_color": "#ffffff",
     "theme_color": "#ffffff",
     "description": "Sameer Tuteja",
@@ -43,7 +43,7 @@
 			"icons": [{ "src": "https://raw.githubusercontent.com/sam-tj/sam-tj.github.io/master/dice_app/icons/Icon-512.png", "sizes": "192x192" }]
 		},
 		{
-			"name": "Calculator & Unit Converter",
+			"name": "Cal Ver Tor",
 			"short_name": "Cal Ver Tor",
 			"description": "Calculator and Unit converter by Sameer Tuteja",
 			"url": "/projects/cal_ver_tor/",
