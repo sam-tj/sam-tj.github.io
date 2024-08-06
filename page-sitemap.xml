@@ -1,61 +1,61 @@
 <?xml version='1.0' encoding='UTF-8'?><?xml-stylesheet type='text/xsl' href='https://raw.githubusercontent.com/Auctollo/google-sitemap-generator/master/sitemap.xsl'?><!-- sitemap-generator-url='http://www.arnebrachhold.de' sitemap-generator-version='4.1.21' -->
 <!-- generated-on='July 3, 2024 9:51 am' -->
 <urlset xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd' xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>	<url>
-		<loc>https://sam-tj.github.io/projects/</loc>
+		<loc>https://sam-tj.github.io/about_content/projects/</loc>
 		<lastmod>2024-07-02T09:16:01+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://sam-tj.github.io/about/</loc>
+		<loc>https://sam-tj.github.io/about_content/about/</loc>
 		<lastmod>2024-07-02T12:40:49+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://sam-tj.github.io/404_error/</loc>
+		<loc>https://sam-tj.github.io/about_content/404_error/</loc>
 		<lastmod>2024-07-02T11:35:28+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://sam-tj.github.io/publications/</loc>
+		<loc>https://sam-tj.github.io/about_content/publications/</loc>
 		<lastmod>2024-07-02T09:59:42+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://sam-tj.github.io/achievements/</loc>
+		<loc>https://sam-tj.github.io/about_content/achievements/</loc>
 		<lastmod>2024-07-02T09:59:08+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://sam-tj.github.io/projects/flutter/cal_ver_tor/</loc>
+		<loc>https://sam-tj.github.io/about_content/projects/flutter/cal_ver_tor/</loc>
 		<lastmod>2024-07-02T09:59:08+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://sam-tj.github.io/projects/flutter/TheTurtleBoard/</loc>
+		<loc>https://sam-tj.github.io/about_content/projects/flutter/TheTurtleBoard/</loc>
 		<lastmod>2024-07-02T09:59:08+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://sam-tj.github.io/projects/flutter/dice_app/</loc>
+		<loc>https://sam-tj.github.io/about_content/projects/flutter/dice_app/</loc>
 		<lastmod>2024-07-02T09:59:08+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://sam-tj.github.io/projects/flutter/schon_quotes/</loc>
+		<loc>https://sam-tj.github.io/about_content/projects/flutter/schon_quotes/</loc>
 		<lastmod>2024-07-02T09:59:08+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://sam-tj.github.io/projects/flutter/xylophone/</loc>
+		<loc>https://sam-tj.github.io/about_content/projects/flutter/xylophone/</loc>
 		<lastmod>2024-07-02T09:59:08+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.6</priority>
