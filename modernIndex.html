@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>About Sameer Tuteja</title>
+    <meta charset="utf-8" />
+    <meta name="description" content="About Sameer Tuteja" />
+    <meta name="keywords" content="Sameer,Tuteja,Profile,Projects,About,Resume,CV" />
+    <meta name="author" content="Sameer Tuteja" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link type="text/css" href="./styles.css" rel="stylesheet" />
+    <link rel="shortcut icon" type="image/png" href="favicon.png" />
+    <link rel="apple-touch-icon" href="favicon.png" />
+    <meta name="google-site-verification" content="HR6IDlxM8QxY2Z9kr3iTyR-1_5no8CJicYWtIaTOE3U" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="background_color" content="#ffffff" />
+  </head>
+  <body>
+    <div id="myModal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h1>House Rules 🏡</h1>
+        <p>
+          Roam around my home office.🐈
+          <br /><br />
+          <b>Tap the blue dots to jump to locations</b>
+          <br /><br />
+          You can use ZOOM 🔍 feature too, <br />& if you get lost, hit the
+          <b>Bring me back</b> button. <br /><br />
+          <br /><br />Prefer
+          <a class="hrefStyle" href="firefox://open-url?url=https://sam-tj.github.io/"
+            ><b>firefox</b></a
+          >
+          or
+          <a class="hrefStyle" href="googlechromes://https://sam-tj.github.io/"><b>chrome</b></a
+          >... <br /><br />
+          <a class="hrefStyle" href="about_content/index.html">
+            Tap 🔴 to view the profile directly.</a
+          >
+        </p>
+      </div>
+    </div>
+    <div id="progressBarContent" class="progressBarContent blur_filter">
+      <div class="progressBarImage">
+        <img
+          src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExN3R6eXN3cm1uYndqejBwOTdnazY0MGJtcG15NWxjOHh3Y2x3bWprbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Pjr0NCGk4WMQPQtg0C/giphy-downsized.gif"
+          alt=""
+        />
+        <div class="centered">Cleaning room</div>
+      </div>
+      <div class="progressBarEmoji">
+        <div id="progressBarEmoji" class="progressBarEmojiTranslate">
+          <img src="walking_goose.gif" />
+        </div>
+      </div>
+    </div>
+    <!-- <model-viewer> HTML element -->
+    <model-viewer
+      id="model_viewer_window"
+      src="homeOffice.glb"
+      autoplay
+      ar-modes="webxr scene-viewer quick-look"
+      disable-pan
+      camera-controls
+      tone-mapping="neutral"
+      shadow-intensity="1"
+      min-field-of-view="45deg"
+      max-field-of-view="55deg"
+      field-of-view="50deg"
+      camera-orbit="3.664142324173232rad 1.3962634015954636rad 6.0m"
+      min-camera-orbit="2.878267294859932rad 1.1292184887220118rad 6.0m"
+      max-camera-orbit="3.824369271897301rad 1.548860494666006rad 6.0m"
+      camera-target="0.650m 0.178m 1.450m"
+      zoom-sensitivity="0.1"
+      class="blur_filter"
+    >
+      <button
+        class="Hotspot ProfileHotspot"
+        slot="hotspot-1"
+        name="login"
+        data-surface="5 0 2893 2895 2894 0.272 0.223 0.504"
+        data-visibility-attribute="visible"
+      >
+        <div id="login" class="HotspotAnnotation">Login</div>
+      </button>
+      <button
+        class="Hotspot"
+        slot="hotspot-2"
+        name="teaTime"
+        data-surface="7 0 1852 1853 1854 0.538 0.362 0.100"
+        data-visibility-attribute="visible"
+      >
+        <div id="teaTime" class="HotspotAnnotation">Tea Time</div>
+      </button>
+      <button
+        class="Hotspot"
+        slot="hotspot-3"
+        name="skyView"
+        data-surface="17 0 17 19 18 0.476 0.003 0.521"
+        data-visibility-attribute="visible"
+      >
+        <div id="skyView" class="HotspotAnnotation">Sky view</div>
+      </button>
+      <div class="progress-bar" slot="progress-bar">
+        <div class="update-bar"></div>
+      </div>
+      <!-- <button slot="ar-button" id="ar-button">View in your space</button>
+        <div id="ar-prompt">
+          <img src="ar_hand_prompt.png" />
+        </div> -->
+    </model-viewer>
+    <div id="bringMeBack" class="blur_filter">
+      <button class="reset_button" id="reset_view">Bring me back</button>
+    </div>
+    <div id="helpButton" class="helpButton blur_filter">ℹ️</div>
+    <div id="about_page" class="iframeStyle">
+      <iframe style="height: 100%; width: 100%" src="about_content/index.html"> </iframe>
+    </div>
+    <div class="footer">
+      <a class="hrefStyle" href="https://www.ikea.com/"
+        >Furniture virtually purchased from <b>IKEA</b>.</a
+      ><br />© Sameer Tuteja
+    </div>
+    <script src="script.js"></script>
+    <!-- Loads <model-viewer> for browsers: -->
+    <script
+      type="module"
+      src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"
+    ></script>
+  </body>
+</html>
