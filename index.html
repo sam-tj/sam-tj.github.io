@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
   <style>
+    :root {
+      --timeout: 0.1s;
+    }
     .center {
       margin: 0;
       position: absolute;
@@ -11,17 +14,39 @@
     }
     .modernColor {
       background-color: #01928b;
+      -webkit-transition: background-color var(--timeout) ease-in; /* Safari */
+      transition: background-color var(--timeout) ease-in;
+      -webkit-transition-delay: var(--timeout); /* Safari */
+      transition-delay: var(--timeout);
     }
 
     .standardDesign {
       background-color: #f5f3c7;
+      -webkit-transition: background-color var(--timeout) ease-in; /* Safari */
+      transition: background-color var(--timeout) ease-in;
+      -webkit-transition-delay: var(--timeout); /* Safari */
+      transition-delay: var(--timeout);
     }
 
     .defaultDesign {
       background-color: orange;
+      -webkit-transition: background-color var(--timeout) ease-in; /* Safari */
+      transition: background-color var(--timeout) ease-in;
+      -webkit-transition-delay: var(--timeout); /* Safari */
+      transition-delay: var(--timeout);
+    }
+
+    .footer {
+      position: absolute;
+      left: 0;
+      bottom: 5px;
+      width: 100%;
+      color: black;
+      text-align: center;
+      z-index: 1;
     }
   </style>
-  <body id="bodyBackground" class="defaultDesign">
+  <body id="bodyBackground" class="defaultDesign" onload="defaultDesign()">
     <div class="center">
       <svg
         width="100%"
@@ -137,6 +162,7 @@
         Sorry, your browser does not support inline SVG.
       </svg>
     </div>
+    <div class="footer">© Sameer Tuteja</div>
   </body>
   <script>
     function modernDesign() {
